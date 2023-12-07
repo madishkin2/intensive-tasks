@@ -13,7 +13,7 @@ public class Task8 {
         int limitTickerNumber = 999999;
         int[] arrayNumberTicket = new int[6];
 
-        for (int i = 1001; i <= limitTickerNumber; i++) {
+        for (int i = 0; i <= limitTickerNumber; i++) {
             arrayNumberTicket[5] = i % 10;
             arrayNumberTicket[4] = (i % 100) / 10;
             arrayNumberTicket[3] = (i % 1000) / 100;
